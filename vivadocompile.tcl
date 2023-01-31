@@ -122,7 +122,7 @@ set_property "xelab.nosort" "1" $obj
 set_property "xelab.unifast" "" $obj
 
 set_property strategy "Vivado Synthesis Defaults" [get_runs synth_1]
-set_property strategy "Flow_PerfOptimized_high" [get_runs synth_1]
+#set_property strategy "Flow_PerfOptimized_high" [get_runs synth_1]
 
 # do not ignore failure-level VHDL assertions
 set_param synth.elaboration.rodinMoreOptions {rt::set_parameter ignoreVhdlAssertStmts false}
